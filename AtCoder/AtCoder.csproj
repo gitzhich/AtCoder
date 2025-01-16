@@ -16,4 +16,9 @@
     <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ac-library-csharp" Version="3.9.1" />
+    <PackageReference Include="SourceExpander" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>
