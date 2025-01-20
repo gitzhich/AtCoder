@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AtCoder.Abc
 {
-    //https://atcoder.jp/contests/abc141/tasks/abc141_a
+    //https://atcoder.jp/contests/adt_all_20250116_3/tasks/abc339_a
     public class QuestionA
     {
         public static void Main(string[] args)
@@ -17,19 +17,9 @@ namespace AtCoder.Abc
             // 文字列の入力
             string s = Console.ReadLine();
 
-            // 整数の入力
-            long n = long.Parse(Console.ReadLine());
+            List<string> words = new List<string>(s.Split("."));
 
-            // 文字列配列の入力
-            string[] inputStrArray = Console.ReadLine().Split(' ');
-
-            // 整数配列の入力
-            var inputLongArray = Console.ReadLine().Split(' ').Select(i => long.Parse(i)).ToArray();
-
-
-
-
-            string result = "";
+            string result = words.Last();
 
             Console.WriteLine(result);
 
